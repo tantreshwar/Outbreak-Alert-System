@@ -1,0 +1,3 @@
+First of all the database disease is loaded which has disease_record table.For that databse dump is provided.On transmitter side add transmitter and hashdata python file.On receiver side add receiver file.
+
+Req:BoltIoT device,Python3 IDLE,MySQL
