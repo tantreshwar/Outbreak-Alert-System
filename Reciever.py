@@ -3,8 +3,8 @@ import json, time,requests
 api_key = "e90ab9b0-1def-4da5-90cf-2c2c9165fdf9" #Receiver device api
 device_id  = "BOLT1115146"                       #Receiver device id
 mybolt = Bolt(api_key, device_id)
-telegram_chat_id="@outbreak_alert"              #Telegram channel for particular area receiver
-telegram_bot_id="bot740881286:AAGy-f6NBlQPIUuqdcndTQb2TYu_Br4aJA8"  #Telegram channel bot for particular area receiver(used for posting message)
+telegram_chat_id="@XXXX"              #Telegram channel for particular area receiver
+telegram_bot_id="botXXXX"  #Telegram channel bot for particular area receiver(used for posting message)
 
 #Sends telegram message to particular telegram channel
 def send_telegram_message(message):
